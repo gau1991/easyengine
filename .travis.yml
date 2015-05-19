@@ -109,3 +109,5 @@ script:
   - sudo ls /var/www/
   - sudo wp --allow-root --info
   - sudo bash -c 'cat /var/log/ee/ee.log'
+
+
