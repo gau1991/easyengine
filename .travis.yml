@@ -18,7 +18,7 @@ script:
   - sudo apt-get install -y --force-yes git python3-setuptools python3-dev python3-apt
   - sudo bash install $TRAVIS_BRANCH
   - sudo ee --help
-  
+  - sudo ee stack install --php
   - sudo pear install Mail_Mime Net_SMTP Mail_mimeDecode Net_IDNA2-beta Auth_SASL Net_Sieve Crypt_GPG
   - sudo ee stack install --mail
   - sudo bash -c 'cat /var/log/ee/ee.log'
